@@ -1,0 +1,24 @@
+{
+	"name": "psylogic/SQLite",
+	"description": "Handle Migrations limitation while testing",
+	"authors": [
+		 {
+			  "name": "Othmane Nemli",
+			  "email": "nemli.othmane@gmail.com"
+		 }
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		 "psr-4": {
+			  "Psylogic\\SQLite\\": "src/"
+		 }
+	},
+	"extra": {
+		 "laravel": {
+			  "providers": [
+					"Psylogic\\SQLite\\SQLiteServiceProvider"
+			  ]
+		 }
+	}
+}
