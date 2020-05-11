@@ -1,11 +1,15 @@
-
 **Handle Laravel SQLite limitation**
+
+```shell
+composer require psylogic/laravel-sqlite-handler
+```
 
 > Based on PR https://github.com/laravel/framework/pull/32737
 
 Sometimes we are dealing with an existing projects and we decide to add Unit Testing,
 the issue is when we have a hundreds of migrations some of them are dropping columns and adding new columns to an existing tables also dropping foreign keys it become hard to maintain since we always prefer to use SQLite on memory or local file
 The solution that provided is adding more test inside the migrations files like: 
+ 
  
 ```php
 if (\DB::getDriverName() != 'sqlite') {
