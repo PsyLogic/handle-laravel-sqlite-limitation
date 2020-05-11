@@ -33,12 +33,12 @@ if (\DB::getDriverName() != 'sqlite') {
 ```
 Or Create **separate migrations** or modify all the affected migrations by refactoring code to suit SQLite limitations.
 
-***Now you shouldn't be worry about adding condition in the migrations files***
+***Now you shouldn't be worry about adding condition in the migrations files or create separete migrations***
 
 What Covered:
 
  - dropping columns in one single migration file
- - Add Nullable for new columns on existing table (fix Cannot add a NOT NULL 
+ - Add Nullable for new columns on existing table (Fix Cannot add a NOT NULL column with default value NULL)
  - dropping foreign keys
 
 
