@@ -1,6 +1,8 @@
 {
 	"name": "psylogic/SQLite",
 	"description": "Handle Migrations limitation while testing",
+	"keywords": ["Laravel","SQLite"],
+	"license": "MIT",
 	"authors": [
 		 {
 			  "name": "Othmane Nemli",
@@ -8,7 +10,9 @@
 		 }
 	],
 	"minimum-stability": "dev",
-	"require": {},
+	"require": {
+		"php": ">=7.2.0"
+	 	}
 	"autoload": {
 		 "psr-4": {
 			  "Psylogic\\SQLite\\": "src/"
