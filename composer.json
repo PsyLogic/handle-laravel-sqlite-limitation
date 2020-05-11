@@ -1,5 +1,5 @@
 {
-	"name": "psylogic/SQLite",
+	"name": "psylogic/laravel-sqlite-handler",
 	"description": "Handle Migrations limitation while testing",
 	"keywords": ["Laravel","SQLite"],
 	"license": "MIT",
