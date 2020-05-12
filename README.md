@@ -1,5 +1,7 @@
 **Handle Laravel SQLite limitation**
 
+works with Laravel 5.6, 5.7, 5.8, 6.x, 7.x
+
 ```shell
 composer require psylogic/laravel-sqlite-handler
 ```
