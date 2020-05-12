@@ -34,7 +34,7 @@ if (\DB::getDriverName() != 'sqlite') {
 
 ```php
 if (\DB::getDriverName() != 'sqlite') {
-  $table->dopForeign('name');
+  $table->dropForeign('name');
 }
 ```
 Or Create **separate migrations** or modify all the affected migrations by refactoring code to suit SQLite limitations.
