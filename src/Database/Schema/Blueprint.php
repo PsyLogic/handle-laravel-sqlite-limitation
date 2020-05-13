@@ -4,9 +4,9 @@ namespace Psylogic\SQLite\Database\Schema;
 
 use BadMethodCallException;
 use Illuminate\Database\Schema\Blueprint as BaseBlueprint;
-use Illuminate\Database\SQLiteConnection;
 use Illuminate\Database\Connection;
 use Illuminate\Support\Fluent;
+use Psylogic\SQLite\Database\SQLiteConnection;
 
 class Blueprint extends BaseBlueprint
 {

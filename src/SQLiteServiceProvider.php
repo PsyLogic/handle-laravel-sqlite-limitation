@@ -3,8 +3,8 @@
 namespace Psylogic\SQLite;
 
 use Illuminate\Database\Connection;
-use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\ServiceProvider;
+use Psylogic\SQLite\Database\SQLiteConnection;
 
 class SQLiteServiceProvider extends ServiceProvider
 {
