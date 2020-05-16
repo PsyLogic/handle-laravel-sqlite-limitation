@@ -15,7 +15,8 @@
 	},
 	"autoload": {
 		 "psr-4": {
-			  "Psylogic\\SQLite\\": "src/"
+			  "Psylogic\\SQLite\\": "src/",
+			  "Psylogic\\SQLite\\Test\\": "tests/"
 		 }
 	},
 	"extra": {
@@ -24,5 +25,9 @@
 					"Psylogic\\SQLite\\SQLiteServiceProvider"
 			  ]
 		 }
+	},
+	"require-dev": {
+		"orchestra/testbench": "5.x-dev",
+		"doctrine/dbal": "^2.6"
 	}
 }
