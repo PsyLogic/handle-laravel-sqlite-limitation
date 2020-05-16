@@ -46,6 +46,3 @@ What Covered:
  - dropping columns in one single migration file
  - Add Nullable for new columns on existing table (Fix Cannot add a NOT NULL column with default value NULL)
  - dropping foreign keys
-
-
-Still working on the other limitations
