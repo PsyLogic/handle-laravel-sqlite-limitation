@@ -43,6 +43,6 @@ Or Create **separate migrations** or modify all the affected migrations by refac
 
 What Covered:
 
- - dropping columns in one single migration file
- - Add Nullable for new columns on existing table (Fix Cannot add a NOT NULL column with default value NULL)
- - dropping foreign keys
+ - dropping columns in one single migration file (Fix: SQLite doesn't support multiple calls to dropColumn)
+ - Add Nullable for new columns on existing table (Fix: Cannot add a NOT NULL column with default value NULL)
+ - dropping foreign keys (Fix: SQLite doesn't support dropping foreign keys)
